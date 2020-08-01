@@ -1,4 +1,4 @@
-require "pry"# Examples inspired by U. S. National Organic Standards
+# Examples inspired by U. S. National Organic Standards
 
 ORGANIC_PRODUCE = [
   "Strawberries",
@@ -42,7 +42,6 @@ matrix[row][column]  # Given any matrix (array of arrays), a row index and a col
 end
 
 def matrix_update(matrix, row, column, new_value)
-  binding.pry
   matrix[row][column] = new_value
   matrix
   # sorted_matrix[1][2] = "Lemons"
